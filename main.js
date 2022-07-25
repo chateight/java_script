@@ -34,3 +34,13 @@ let show_val = {
     show(value){console.log(value);}
 }
 show_val.show("hello from the method");
+//
+// implicit type conversion
+//
+console.log(1*true);
+console.log(false + true);
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(-1));
+
+
