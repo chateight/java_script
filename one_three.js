@@ -37,10 +37,24 @@ show_val.show("hello from the method");
 //
 // implicit type conversion
 //
-console.log(1*true);
-console.log(false + true);
-console.log(Boolean(0));
-console.log(Boolean(1));
-console.log(Boolean(-1));
+console.log(1*true);        // 1
+console.log(false + true);  // 1
+console.log(Boolean(0));    // false
+console.log(Boolean(1));    // true
+console.log(Boolean(-1));   // true
+//
+console.log(typeof null);   // object
+console.log( 100 + true);   // 101
+console.log( 1 + Number("hello"));  // NaN(Not a Number)
+console.log( 1 + Boolean("hello")); // 2
+//
+const tax_rate = 1.1;
+let price = 1000;
+console.log("total price is " + price*tax_rate, "yen");
+//
+let b_int = 23n;
+const c_int = 5n;
+console.log("residue is", b_int%c_int);
+//
 
 
