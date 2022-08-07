@@ -43,7 +43,7 @@ const taro = {
 
 setTimeout( taro.hello.bind(taro), 2000);
 //
-//
+// section eight exercise
 //
 window.greeting = "hello_eight";
 
@@ -55,7 +55,7 @@ hello();
 
 const dog = {
     greeting: "bow",
-    hello
+    hello: hello    // equivalent to "hello"
 }
 
 dog.hello();        // "bow"
