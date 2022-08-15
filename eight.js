@@ -1,3 +1,4 @@
+// "this keyword"
 //
 // if type="module" setting is enabled, this code does not work properly
 // since root context is "undefined" with that setting, so "window.name" could not be accessed
