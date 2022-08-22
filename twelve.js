@@ -55,7 +55,7 @@ Array.prototype[ Symbol.iterator ] = function (){
 }
 
 for (let it of [ 1, 3, 5, 7, 9, 2, 4, 6, 8 ]){
-    console.log( it );                              // 2, 6, .....
+    console.log( it );
 }
 
 // resume the iterator function to the defalut
